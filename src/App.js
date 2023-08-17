@@ -2,6 +2,7 @@ import { Container, Button, } from '@mui/material';
 import { ThemeProvider } from '@mui/system';
 import { useEffect } from 'react';
 import './App.css';
+import Appbar from './components/appbar';
 import theme from './styles/theme';
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
             background: "#fff"
           }}
         >
-          <h1>Hello World</h1>
+          <Appbar />
+          {/* <h1>Hello World</h1> */}
           <Button variant='contained'>Test</Button>
         </Container>
       </ThemeProvider>
