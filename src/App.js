@@ -3,6 +3,7 @@ import { ThemeProvider } from '@mui/system';
 import { useEffect } from 'react';
 import './App.css';
 import Appbar from './components/appbar';
+import Banner from './components/banner';
 import theme from './styles/theme';
 
 function App() {
@@ -19,8 +20,7 @@ function App() {
           }}
         >
           <Appbar />
-          {/* <h1>Hello World</h1> */}
-          <Button variant='contained'>Test</Button>
+          <Banner />
         </Container>
       </ThemeProvider>
   );
