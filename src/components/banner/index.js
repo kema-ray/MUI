@@ -13,8 +13,8 @@ export default function Banner() {
                 <Typography variant="h6">Huge Collection</Typography>
                 <BannerTitle variant="h2">New Bags</BannerTitle>
                 <BannerDescription variant="subtitle">
-                    Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo
-                    tempor incididunt ut labore et dolore magna
+                    Grab yourself and another lovely person a classy, elegant bag that comes in different
+                    shapes and sizes and features diverse colors to suit the everyday activities.
                 </BannerDescription>
             </BannerContent>
         </BannerContainer>
